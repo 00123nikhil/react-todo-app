@@ -4,7 +4,7 @@
  * 2.https://www.youtube.com/watch?v=LoYbN6qoQHA&t=324s
  */ -->
 
-# Todo List App
+# ⛓️ Todo List App
 
 The Todo List App is a simple web application built using React.js that allows users to create, manage, and delete their to-do tasks in an organized manner. This README file provides an overview of the application, installation instructions.
 
@@ -27,7 +27,8 @@ The Todo List App is a simple web application built using React.js that allows u
 [Link to Live Demo](https://www.example.com)
 
 ## Screenshorts
-[To-Do list](React-App.png)
+![React-App](https://github.com/00123nikhil/react-todo-app/assets/95076182/37a4cc05-81e1-437f-938a-00c6c3e7918e)
+
 
 ## Installation
 
@@ -51,17 +52,11 @@ cd todo-list-app
 npm install
 ```
 
-### Adding a Todo Task
+- `Adding a Todo Task` : To add a new task to the list, click on the "Add Task" button and enter the task description in the input field provided. Press the "Enter" key or click on the "Add" button to add the task to the list.
 
-To add a new task to the list, click on the "Add Task" button and enter the task description in the input field provided. Press the "Enter" key or click on the "Add" button to add the task to the list.
+- `Marking a Task as Completed/Uncompleted` : To mark a task as completed, click on the text  to the task description. To mark it as uncompleted, click on the text again.
 
-### Marking a Task as Completed/Uncompleted
-
-To mark a task as completed, click on the checkbox next to the task description. To mark it as uncompleted, click on the checkbox again.
-
-### Deleting a Task
-
-To delete a task from the list, click on the "Delete" button next to the task you wish to remove.
+- `Deleting a Task` : To delete a task from the list, click on the "Delete" button next to the task you wish to remove.
 
 ## License
 
