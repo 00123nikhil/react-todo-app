@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<!-- /**
+ * Notes:
+ * 1.https://fontawesome.com/docs/web/use-with/react/
+ * 2.https://www.youtube.com/watch?v=LoYbN6qoQHA&t=324s
+ */ -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo List App
 
-## Available Scripts
+The Todo List App is a simple web application built using React.js that allows users to create, manage, and delete their to-do tasks in an organized manner. This README file provides an overview of the application, installation instructions.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add new tasks to the todo list.
+- Mark tasks as completed or uncompleted.
+- Delete tasks from the list.
+- Clean and user-friendly interface.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Link to Live Demo](https://www.example.com)
 
-### `npm run build`
+## Screenshorts
+[To-Do list](React-App.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Ensure that you have Node.js installed on your system. You can download it from the official website: [https://nodejs.org](https://nodejs.org)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Clone this repository to your local machine using the following command:
 
-### `npm run eject`
+```bash
+git clone https://github.com/00123nikhil/todo-list-app.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd todo-list-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Install the required dependencies by running:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### Adding a Todo Task
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To add a new task to the list, click on the "Add Task" button and enter the task description in the input field provided. Press the "Enter" key or click on the "Add" button to add the task to the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Marking a Task as Completed/Uncompleted
 
-### Code Splitting
+To mark a task as completed, click on the checkbox next to the task description. To mark it as uncompleted, click on the checkbox again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Deleting a Task
 
-### Analyzing the Bundle Size
+To delete a task from the list, click on the "Delete" button next to the task you wish to remove.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+[MIT License](LICENSE)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Todo List App is licensed under the [MIT License](LICENSE), which allows for both personal and commercial use.
